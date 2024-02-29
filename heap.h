@@ -80,7 +80,7 @@ Heap<T, PComparator>::Heap(int m, PComparator c) {
 template <typename T, typename PComparator>
 Heap<T, PComparator>::~Heap() {
 	while(!empty()) {
-    this.pop();
+    this->pop();
   }
 }
 
